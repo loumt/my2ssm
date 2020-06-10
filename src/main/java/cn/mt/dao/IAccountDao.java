@@ -2,6 +2,8 @@ package cn.mt.dao;
 
 import cn.mt.models.Account;
 import cn.mt.models.AccountUser;
+import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.FetchType;
 
 import java.util.List;
 
@@ -14,13 +16,18 @@ import java.util.List;
  */
 public interface IAccountDao {
 
-    /**
-     * 查询所有用户
-     * @return
-     */
+    @Select("select * from account")
+    @Results(id = "accountMap", value = {
+            @Result(id = true, column = "id", property = "id"),
+            @Result(property = "user", column = "uid",one =  @One(select = "cn.mt.dao.IUserDao.findUserById", fetchType = FetchType.LAZY))
+    })
     List<Account> findAll();
 
 
     List<AccountUser> findAllAccount();
+
+    @Select("select * from account where uid = #{uid}")
+    @ResultMap("accountMap")
+    Account findAccountByUid(Long uid);
 
 }

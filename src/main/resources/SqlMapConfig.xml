@@ -8,8 +8,11 @@
     <properties resource="jdbc.properties"/>
 
     <settings>
+        <setting name="logImpl" value="LOG4J"/>
         <setting name="cacheEnabled" value="true"/>
     </settings>
+
+
 
     <typeAliases>
         <package name="cn.mt.models"/>
@@ -32,14 +35,7 @@
         </environment>
     </environments>
 
-
-    <!--指定映射配置文件的位置，指的是每个Dao配置的独立文件
-        如果是注解的形式的话，这边就是使用class指定全类名
-    -->
     <mappers>
-<!--        <mapper resource="xml/UserDao.xml"/>-->
-
-        <!--包名必须与dao一致？？？？？？-->
         <package name="cn.mt.dao"/>
     </mappers>
 

@@ -26,7 +26,7 @@ import java.util.List;
  * 5.使用代理对象执行方法
  * 6.释放资源
  */
-public class MybatisTest {
+public class UserTest {
 
     private SqlSession sqlSession;
     private InputStream in;
@@ -59,6 +59,7 @@ public class MybatisTest {
         List<User> all = userDao.findAll();
         for (User user: all){
             System.out.println(user);
+            System.out.println(user.getAccounts());
         }
     }
 
@@ -67,7 +68,7 @@ public class MybatisTest {
     public void saveUser(){
         
         User u = new User();
-        u.setUsername("John");
+        u.setUsername("Your");
         u.setBirthday(new Date());
         u.setSex("男");
         u.setAddress("伦敦");
@@ -80,11 +81,11 @@ public class MybatisTest {
     public void updateUser(){
         
         User u = new User();
-        u.setId(13L);
+        u.setId(17L);
         u.setUsername("JION");
         u.setBirthday(new Date());
         u.setSex("男");
-        u.setAddress("伦敦");
+        u.setAddress("1111");
         userDao.updateUser(u);
     }
 
@@ -92,24 +93,16 @@ public class MybatisTest {
     @Test
     public void deleteUser(){
         
-        userDao.deleteById(11L);
+        userDao.deleteById(15L);
     }
 
     @Test
     public void findById(){
         
-        User user = userDao.findUserById(2L);
+        User user = userDao.findUserById(18L);
         System.out.println(user);
     }
 
-    @Test
-    public void findLikeName() throws IOException {
-        
-        List<User> all = userDao.findLikeName("%J%");
-        for (User user: all){
-            System.out.println(user);
-        }
-    }
 
     @Test
     public void findTotal(){
@@ -157,4 +150,15 @@ public class MybatisTest {
             System.out.println(user);
         }
     }
+
+
+
+    @Test
+    public void findLikeName() throws IOException {
+        List<User> all = userDao.findLikeName("%J%");
+        for (User user: all){
+            System.out.println(user);
+        }
+    }
+
 }

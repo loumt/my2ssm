@@ -1,7 +1,6 @@
-import cn.mt.dao.IAccountDao;
+import cn.mt.dao.IRoleDao;
 import cn.mt.dao.IUserDao;
-import cn.mt.models.Account;
-import cn.mt.models.AccountUser;
+import cn.mt.models.Role;
 import cn.mt.models.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -16,17 +15,18 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * @Classname AccountTest
+ * @Classname RoleTest
  * @Created by loumt
  * @email looty_loumt@hotmail.com
  * @Description TODO
- * @Date 2020/6/9 14:40
+ * @Date 2020/6/10 14:02
  */
-public class AccountTest {
+public class RoleTest {
+
 
     private SqlSession sqlSession;
     private InputStream in;
-    IAccountDao accountDao;
+    IRoleDao roleDao;
 
     @Before
     public void init() throws IOException {
@@ -35,7 +35,7 @@ public class AccountTest {
         SqlSessionFactory factory = builder.build(in);
         sqlSession = factory.openSession();
 
-        accountDao = sqlSession.getMapper(IAccountDao.class);
+        roleDao = sqlSession.getMapper(IRoleDao.class);
     }
 
 
@@ -48,23 +48,20 @@ public class AccountTest {
         in.close();
     }
 
-
     @Test
-    public void findAll() throws IOException {
-        List<Account> all = accountDao.findAll();
-        for (Account account: all){
-            System.out.println("---------------");
-            System.out.println(account);
-            System.out.println(account.getUser());
+    public void findAll(){
+
+        List<Role> all = roleDao.findAll();
+        for (Role role: all){
+            System.out.println(role);
         }
     }
 
     @Test
-    public void findAllAccount() throws IOException {
-        List<AccountUser> all = accountDao.findAllAccount();
-        for (AccountUser account: all){
-            System.out.println(account);
-            System.out.println(account.getUser());
-        }
+    public void findById(){
+
+        Role role = roleDao.findRoleById(1L);
+        System.out.println(role);
     }
+
 }

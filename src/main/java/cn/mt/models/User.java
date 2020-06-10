@@ -4,7 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @Classname User
@@ -23,4 +25,8 @@ public class User {
     private String address;
     private Date birthday;
     private Date loginTime;
+
+    //一对多关系映射
+    private List<Account> accounts;
+
 }
