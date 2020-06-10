@@ -1,0 +1,414 @@
+2020-06-08 10:08:14 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 10:08:17 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:17 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:17 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:17 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:51 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 10:08:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:08:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:09:19 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 10:09:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:09:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:09:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:09:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:09:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [Finalizer] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:10:16 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 10:10:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:10:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:10:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:10:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:10:16 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 10:10:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1301664418. 
+2020-06-08 10:10:18 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d95d2a2] 
+2020-06-08 10:10:18 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 10:10:18 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 10:10:18 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 10:10:18 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d95d2a2] 
+2020-06-08 10:10:18 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d95d2a2] 
+2020-06-08 10:10:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1301664418 to pool. 
+2020-06-08 10:23:10 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 10:23:10 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:23:10 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:23:10 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:23:10 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 10:23:11 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 10:23:11 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 2006034581. 
+2020-06-08 10:23:11 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7791a895] 
+2020-06-08 10:23:11 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 10:23:11 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 10:23:11 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 10:23:11 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7791a895] 
+2020-06-08 10:23:11 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7791a895] 
+2020-06-08 10:23:11 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 2006034581 to pool. 
+2020-06-08 11:14:11 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:14:13 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:14:13 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:14:13 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:14:13 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:14:13 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:14:13 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 601893033. 
+2020-06-08 11:14:13 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:14:13.873(Timestamp) 
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:14:13 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 3 
+2020-06-08 11:14:13 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:14:14 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:14:14 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:14:14 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 601893033 to pool. 
+2020-06-08 11:15:22 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:15:22 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:15:22 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:15:22 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:15:22 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:15:23 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:15:23 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 601893033. 
+2020-06-08 11:15:23 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:15:23.739(Timestamp) 
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:15:23 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 3 
+2020-06-08 11:15:23 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:15:23 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:15:23 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@23e028a9] 
+2020-06-08 11:15:23 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 601893033 to pool. 
+2020-06-08 11:17:26 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:17:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:17:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:17:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:17:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:17:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:17:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1250391581. 
+2020-06-08 11:17:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4a87761d] 
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:17:28.55(Timestamp) 
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:17:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 3 
+2020-06-08 11:17:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@4a87761d] 
+2020-06-08 11:17:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4a87761d] 
+2020-06-08 11:17:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4a87761d] 
+2020-06-08 11:17:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1250391581 to pool. 
+2020-06-08 11:20:38 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:20:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:38 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:20:39 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 140799417. 
+2020-06-08 11:20:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9] 
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:20:39.317(Timestamp) 
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:20:39 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 3 
+2020-06-08 11:20:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9] 
+2020-06-08 11:20:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9] 
+2020-06-08 11:20:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9] 
+2020-06-08 11:20:39 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 140799417 to pool. 
+2020-06-08 11:20:57 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:20:57 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:57 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:57 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:57 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:20:58 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:20:58 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1780132728. 
+2020-06-08 11:20:58 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:20:58.728(Timestamp) 
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:20:58 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 3 
+2020-06-08 11:20:58 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:20:58 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:20:58 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:20:58 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1780132728 to pool. 
+2020-06-08 11:23:17 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:23:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:23:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:23:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:23:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:23:18 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:23:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1780132728. 
+2020-06-08 11:23:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:23:19 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:23:19 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:23:18.288(Timestamp) 
+2020-06-08 11:23:19 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:23:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:23:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:23:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a1aab78] 
+2020-06-08 11:23:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1780132728 to pool. 
+2020-06-08 11:29:09 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:29:09 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:29:09 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:29:09 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:29:09 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:29:09 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:29:10 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1177377518. 
+2020-06-08 11:29:10 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@462d5aee] 
+2020-06-08 11:29:10 [cn.mt.dao.IUserDao.updateUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: update user set username=?,address=?,sex=?,birthday=? where id=?  
+2020-06-08 11:29:10 [cn.mt.dao.IUserDao.updateUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: Hery(String), 伦敦(String), 男(String), 2020-06-08 11:29:09.829(Timestamp), 1(Long) 
+2020-06-08 11:29:12 [cn.mt.dao.IUserDao.updateUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:29:12 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@462d5aee] 
+2020-06-08 11:29:12 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@462d5aee] 
+2020-06-08 11:29:12 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@462d5aee] 
+2020-06-08 11:29:12 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1177377518 to pool. 
+2020-06-08 11:33:42 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:33:43 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:33:43 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:33:43 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:33:43 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:33:43 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:33:44 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1773206895. 
+2020-06-08 11:33:44 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@69b0fd6f] 
+2020-06-08 11:33:44 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: delete from user where id=?  
+2020-06-08 11:33:44 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: 1(Long) 
+2020-06-08 11:33:44 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:33:44 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@69b0fd6f] 
+2020-06-08 11:33:44 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@69b0fd6f] 
+2020-06-08 11:33:44 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@69b0fd6f] 
+2020-06-08 11:33:44 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1773206895 to pool. 
+2020-06-08 11:37:18 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:37:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:18 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:18 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1725017993. 
+2020-06-08 11:37:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:37:19 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: delete from user where id=?  
+2020-06-08 11:37:19 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: 1(Long) 
+2020-06-08 11:37:19 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 0 
+2020-06-08 11:37:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:37:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:37:19 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:37:19 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1725017993 to pool. 
+2020-06-08 11:37:26 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:37:26 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:26 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:26 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:26 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:26 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1957502751. 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f] 
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:37:26.829(Timestamp) 
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f] 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f] 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f] 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1957502751 to pool. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1075738627. 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803] 
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.findById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user where id=?  
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.findById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: 2(Long) 
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.findById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 1 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803] 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803] 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1075738627 to pool. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1434041222. 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5579bb86] 
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.updateUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: update user set username=?,address=?,sex=?,birthday=? where id=?  
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.updateUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: Hery(String), 伦敦(String), 男(String), 2020-06-08 11:37:27.82(Timestamp), 1(Long) 
+2020-06-08 11:37:27 [cn.mt.dao.IUserDao.updateUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 0 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5579bb86] 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5579bb86] 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5579bb86] 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1434041222 to pool. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:27 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 369241501. 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@16022d9d] 
+2020-06-08 11:37:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user  
+2020-06-08 11:37:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:37:28 [cn.mt.dao.IUserDao.findAll]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 3 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@16022d9d] 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@16022d9d] 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 369241501 to pool. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [Finalizer] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [Finalizer] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [Finalizer] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [Finalizer] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1475491159. 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@57f23557] 
+2020-06-08 11:37:28 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: delete from user where id=?  
+2020-06-08 11:37:28 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: 1(Long) 
+2020-06-08 11:37:28 [cn.mt.dao.IUserDao.deleteById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 0 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@57f23557] 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@57f23557] 
+2020-06-08 11:37:28 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@57f23557] 
+2020-06-08 11:37:28 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1475491159 to pool. 
+2020-06-08 11:37:52 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:37:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:37:52 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:37:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 192794887. 
+2020-06-08 11:37:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:37:53 [cn.mt.dao.IUserDao.findById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user where id=?  
+2020-06-08 11:37:53 [cn.mt.dao.IUserDao.findById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: 2(Long) 
+2020-06-08 11:37:53 [cn.mt.dao.IUserDao.findById]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 1 
+2020-06-08 11:37:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:37:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:37:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 192794887 to pool. 
+2020-06-08 11:40:29 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:40:30 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:30 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:30 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:30 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:30 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:40:30 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 192794887. 
+2020-06-08 11:40:30 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:30 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user where username like ?  
+2020-06-08 11:40:30 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: J(String) 
+2020-06-08 11:40:31 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 0 
+2020-06-08 11:40:31 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:31 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:31 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 192794887 to pool. 
+2020-06-08 11:40:38 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:40:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:38 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:38 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:40:39 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 192794887. 
+2020-06-08 11:40:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:39 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user where username like ?  
+2020-06-08 11:40:39 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: J(String) 
+2020-06-08 11:40:39 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 0 
+2020-06-08 11:40:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:39 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:39 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 192794887 to pool. 
+2020-06-08 11:40:53 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:40:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:40:54 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:40:54 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 192794887. 
+2020-06-08 11:40:54 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:54 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user where username like ?  
+2020-06-08 11:40:54 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: %J%(String) 
+2020-06-08 11:40:54 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:40:54 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:54 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:40:54 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 192794887 to pool. 
+2020-06-08 11:44:29 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:44:29 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:44:29 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:44:29 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:44:29 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:44:30 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:44:30 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 192794887. 
+2020-06-08 11:44:30 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:44:30 [cn.mt.dao.IUserDao.findTotal]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select count(id) from user  
+2020-06-08 11:44:30 [cn.mt.dao.IUserDao.findTotal]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:44:31 [cn.mt.dao.IUserDao.findTotal]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 1 
+2020-06-08 11:44:31 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:44:31 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b7dd107] 
+2020-06-08 11:44:31 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 192794887 to pool. 
+2020-06-08 11:47:01 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:47:01 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:47:02 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:47:02 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:47:02 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:47:02 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:47:02 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1586845078. 
+2020-06-08 11:47:02 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e955596] 
+2020-06-08 11:47:02 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select * from user where username like '%J%'  
+2020-06-08 11:47:03 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 11:47:03 [cn.mt.dao.IUserDao.findLikeName]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 2 
+2020-06-08 11:47:03 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e955596] 
+2020-06-08 11:47:03 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e955596] 
+2020-06-08 11:47:03 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1586845078 to pool. 
+2020-06-08 11:51:16 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:51:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:51:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:51:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:51:16 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:51:16 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:51:17 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1725017993. 
+2020-06-08 11:51:17 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:51:17 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:51:17 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:51:16.713(Timestamp) 
+2020-06-08 11:51:17 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:51:17 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:51:17 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:51:17 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:51:17 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1725017993 to pool. 
+2020-06-08 11:59:52 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 11:59:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:59:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:59:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:59:52 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 11:59:52 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 11:59:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 1725017993. 
+2020-06-08 11:59:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:59:53 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 11:59:53 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 11:59:52.713(Timestamp) 
+2020-06-08 11:59:53 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 11:59:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:59:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:59:53 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66d1af89] 
+2020-06-08 11:59:53 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 1725017993 to pool. 
+2020-06-08 12:20:31 [org.apache.ibatis.logging.LogFactory]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter. 
+2020-06-08 12:20:32 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 12:20:32 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 12:20:32 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 12:20:32 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->PooledDataSource forcefully closed/removed all connections. 
+2020-06-08 12:20:32 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Opening JDBC Connection 
+2020-06-08 12:20:33 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Created connection 767010715. 
+2020-06-08 12:20:33 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2db7a79b] 
+2020-06-08 12:20:33 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: insert into user(username,sex,address,birthday)values(?,?,?,?)  
+2020-06-08 12:20:33 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters: John(String), 男(String), 伦敦(String), 2020-06-08 12:20:32.48(Timestamp) 
+2020-06-08 12:20:33 [cn.mt.dao.IUserDao.saveUser]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==    Updates: 1 
+2020-06-08 12:20:33 [cn.mt.dao.IUserDao.saveUser!selectKey]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==>  Preparing: select LAST_INSERT_ID()  
+2020-06-08 12:20:33 [cn.mt.dao.IUserDao.saveUser!selectKey]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->==> Parameters:  
+2020-06-08 12:20:33 [cn.mt.dao.IUserDao.saveUser!selectKey]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) -><==      Total: 1 
+2020-06-08 12:20:33 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2db7a79b] 
+2020-06-08 12:20:33 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2db7a79b] 
+2020-06-08 12:20:33 [org.apache.ibatis.transaction.jdbc.JdbcTransaction]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2db7a79b] 
+2020-06-08 12:20:33 [org.apache.ibatis.datasource.pooled.PooledDataSource]-[DEBUG] [main] (JakartaCommonsLoggingImpl.java:54) ->Returned connection 767010715 to pool. 
