@@ -1,6 +1,7 @@
 package cn.mt.vo;
 
 import cn.mt.models.User;
+import lombok.ToString;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @Description TODO
  * @Date 2020/6/9 13:38
  */
+@ToString
 public class UserQueryVo {
     private User user;
 
