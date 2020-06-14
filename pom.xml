@@ -31,12 +31,12 @@
     </developers>
 
     <properties>
-        <jackjson-databind-version>2.5.4</jackjson-databind-version>
+        <jackjson-databind-version>2.9.8</jackjson-databind-version>
         <lombok-version>1.18.0</lombok-version>
         <log-version>1.2.12</log-version>
         <druid-version>1.1.20</druid-version>
         <mysql-version>5.1.37</mysql-version>
-        <mybatis-version>3.3.0</mybatis-version>
+        <mybatis-version>3.5.0</mybatis-version>
         <fastjson-version>1.2.68</fastjson-version>
         <junit-version>4.11</junit-version>
         <spring-version>5.2.7.RELEASE</spring-version>
@@ -56,6 +56,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
             <version>${spring-version}</version>
         </dependency>
         <dependency>
@@ -108,6 +113,11 @@
 
         <!-- Other Jar -->
         <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson-version}</version>
@@ -133,13 +143,18 @@
             <version>1.9.5</version>
         </dependency>
 
-
-
         <!--Mybatis-->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>${mybatis-version}</version>
+        </dependency>
+
+        <!--Mybatis - Spring-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>2.0.0</version>
         </dependency>
     </dependencies>
 

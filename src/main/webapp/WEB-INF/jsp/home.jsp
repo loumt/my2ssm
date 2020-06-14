@@ -12,5 +12,10 @@
 </head>
 <body>
     1111111111111
+    <form method="post" accept-charset="/account">
+        余额设置:<input type="text" name="balance"/>
+        用户ID:<input type="text" name="uid"/>
+        <button>保存</button>
+    </form>
 </body>
 </html>
