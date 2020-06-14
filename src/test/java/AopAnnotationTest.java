@@ -1,26 +1,19 @@
 import cn.mt.services.AccountService;
-import cn.mt.services.impl.AccountServiceImpl;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * @Classname AccountTest
+ * @Classname AopAnnotationTest
  * @Created by loumt
  * @email looty_loumt@hotmail.com
  * @Description TODO
- * @Date 2020/6/11 11:20
+ * @Date 2020/6/12 12:42
  */
-
-public class AccountTest {
-
+public class AopAnnotationTest {
     @Test
     public void test(){
-        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-aop.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-aop-an.xml");
 
         AccountService as = (AccountService) ac.getBean("accountService");
 

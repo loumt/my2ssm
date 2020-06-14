@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="accountService" class="cn.mt.services.impl.AccountServiceImpl"/>
+
+    <bean id="logAopAround" class="cn.mt.aop.LogAopAround"/>
+
+    <!--Spring中基于xml的aop配置-->
+    <aop:config>
+        <aop:pointcut id="logAdvicePointCut" expression="execution(* cn.mt.services.impl.AccountServiceImpl.*(..))"/>
+        <aop:aspect id="logAdvice" ref="logAopAround">
+            <aop:before method="printBefore" pointcut-ref="logAdvicePointCut"/>
+            <aop:after method="printAfter" pointcut-ref="logAdvicePointCut"/>
+            <aop:after-returning method="printReturning" pointcut-ref="logAdvicePointCut"/>
+            <aop:after-throwing method="printThrowing" pointcut-ref="logAdvicePointCut"/>
+
+            <!--环绕通知-->
+            <aop:around method="printAround" pointcut-ref="logAdvicePointCut"/>
+        </aop:aspect>
+    </aop:config>
+
+
+</beans>
